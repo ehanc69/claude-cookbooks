@@ -10,6 +10,8 @@ dependencies = [
     "pandas>=2.3.3",
     "jupyter>=1.1.1",
     "voyageai>=0.3.5",
+    "claude-agent-sdk>=0.1.6",
+    "python-dotenv>=1.2.1",
 ]
 
 [tool.uv.sources]
@@ -24,7 +26,7 @@ dev = [
     "pytest>=8.3.3",
     "nbval>=0.11.0",
     "pre-commit>=3.8.0",
-    "nbconvert>=7.16.0", 
+    "nbconvert>=7.16.0",
 ]
 
 [tool.hatch.build.targets.wheel]
